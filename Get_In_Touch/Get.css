@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.get-box {
+  display: flex;
+  width: 100%;
+  height: 130vh;
+  justify-content: center;
+  padding-top: 100px;
+  background-color: #f3f3f3;
+  flex-direction: column;
+}
+
+.gettype {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.gettype1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 150px;
+}
+
+.getcard {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+  height: 393px;
+  width: 100%;
+  gap: 40px;
+}
+
+.getcardd {
+  height: 333px;
+  width: 328px;
+  background: #FFFFFF;
+}
+
+.getcardd:nth-of-type(2){
+ width: 328px;
+ height: 393px;
+ background-color: #252B42;
+ color: #f3f3f3;
+}
+
+.calbox{
+ display: flex;
+ flex-direction: column;
+}
+
+.calltype{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ width: 100%;
+ height: 50vh;
+ gap: 10px;
+}
+
+.calltype img{
+ width: 72px;
+ height: 72px;
+}
+
+.getsupport-button {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   font-size: 1.1rem;
+}
+
+.getsupport-button button{
+ height: 44px;
+width: 160px;
+border-radius: 5px;
+color: #FFA62B;
+ border: 2px solid #FFA62B;
+ font-size: 1.0rem;
+}
+
+.getsupport-button2 button{
+ height: 44px;
+width: 160px;
+border-radius: 5px;
+ color: white;
+ border: 2px solid #FFA62B;
+ font-size: 1.0rem;
+ background: none;
+}
+
+.getsupport-button2{
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+ font-size: 1.1rem;
+}
+
+.getsupport-button button:hover{
+ background-color: aqua;
+ color: black;
+ cursor: pointer;
+ border-color: aqua;
+}
+
+.getsupport-button2 button:hover{
+ background-color: aqua;
+ color: black;
+ cursor: pointer;
+ border-color: aqua;
+}
